@@ -1,3 +1,5 @@
+"use client";
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -25,7 +27,7 @@ function NavBar() {
         setActiveLink(value);
     }
 
-    // TODO: Use a cool font for your name
+    // TODO: Use a cool font and change colour for your name
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
@@ -33,7 +35,7 @@ function NavBar() {
                 RADHA KOTRA
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav">
-                <span clasName="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"></span>
             </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
