@@ -144,7 +144,7 @@ nav.navbar .navbar-toggler-icon:before {
   transition: all 300ms linear;
 }
 
-nav.navbar .navbar-toggler-icon: after {
+nav.navbar .navbar-toggler-icon:after {
   top: 8px;
 }
 
